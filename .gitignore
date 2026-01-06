@@ -1,0 +1,9 @@
+venv/ 3# Ignore virtual environment directory
+__pycache__/ # Ignore Python cache directories
+*.pyc # Ignore compiled Python files
+.env # Ignore environment variable files
+db.sqlite3 # Ignore SQLite database file
+.idea/ # Ignore JetBrains IDE configuration files
+.vscode/ # Ignore IDE configuration files
+.DS_Store # Ignore macOS system files
+logs/ # Ignore log files directory
