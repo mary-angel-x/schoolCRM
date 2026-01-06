@@ -37,7 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-   
+    'users',  # Добавляем наше приложение пользователей
+    'crm',   # Добавляем наше приложение CRM
+    'education',  # Добавляем наше приложение образования
+    'finance',  # Добавляем наше приложение финансов
+    'shedule',
+    'tasks',
 ]
 
 MIDDLEWARE = [
