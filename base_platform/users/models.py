@@ -11,4 +11,4 @@ class CustomUser(AbstractUser):
         ]
     role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='student')
 
-
+# это файл модели пользователя, где мы расширяем стандартную модель Django, добавляя поле "role" для определения роли пользователя в системе.
